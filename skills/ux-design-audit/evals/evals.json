@@ -1,0 +1,8 @@
+{
+  "skill_name": "ux-design-audit",
+  "evals": [
+    {"id": 1, "prompt": "Review this dashboard design and tell me where the UX can improve: <figma dashboard url with node-id>", "expected_output": "UX Audit Report page in Figma with summary, annotated screen and issues table covering copy, complexity, heuristics, WCAG and color", "files": []},
+    {"id": 2, "prompt": "Check my mobile app onboarding screens for accessibility and contrast issues <figma url>", "expected_output": "Report with computed contrast ratios, touch target issues, WCAG citations", "files": []},
+    {"id": 3, "prompt": "Can you do a heuristic evaluation of this landing page and put the findings in Figma? <figma url>", "expected_output": "Nielsen-mapped findings with copy rewrites and above-the-fold CTA review in Figma table", "files": []}
+  ]
+}
